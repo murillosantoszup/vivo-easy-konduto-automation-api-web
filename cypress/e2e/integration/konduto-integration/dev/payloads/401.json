@@ -1,0 +1,69 @@
+{
+    "id": "100000000020",
+    "currency": "BRL",
+    "installments": 2,
+    "ip": "189.68.156.100",
+    "purchased_at": "2018-12-25T12:00:25Z",
+    "analyze": true,
+    "sales_channel": "e-commerce",
+    "total_amount": 100.00,
+    "billing": {
+        "address1": "Rua dos bobos",
+        "address2": "Rua dos bobos",
+        "city": "Gotham",
+        "country": "BR",
+        "name": "Júlia da Silva",
+        "state": "PE",
+        "zip": "6599999"
+    },
+    "customer": {
+        "id": "28372",
+        "name": "Júlia da Silva",
+        "tax_id": "1345678909",
+        "dob": "1970-12-25",
+        "phone1": "11-1234-5678",
+        "email": "jsilva@gmail.com.br",
+        "created_at": "2010-12-25",
+        "mother_name": "Maria da Silva"
+    },
+    "payment": [
+        {
+            "type": "credit",
+            "bin": "490172",
+            "last4": "0012",
+            "expiration_date": "072015",
+            "status": "approved",
+            "amount": 90.0
+        },
+        {
+            "type": "credit",
+            "bin": "514800",
+            "last4": "3752",
+            "expiration_date": "082016",
+            "tax_id": "15161236879",
+            "status": "approved",
+            "amount": 100.0
+        },
+        {
+            "type": "debit"
+        },
+        {
+            "type": "transfer"
+        },
+        {
+            "type": "ted"
+        },
+        {
+            "type": "pix"
+        }
+    ],
+    "shopping_cart": [
+        {
+            "discount": 0.10,
+            "name": "Júlia da Silva",
+            "quantity": 5.0,
+            "sku": "2194824129840912735",
+            "unit_cost": 18.0
+        }
+    ]
+}
